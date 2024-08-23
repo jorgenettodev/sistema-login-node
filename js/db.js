@@ -2,7 +2,7 @@
 const mongoose = require("mongoose");
 
 // url para conectar no mongodb compass
-const uri = 'mongodb+srv://jorgenetto96:8ZpcDeDkzMd63bXp@bancodedados.2g3xn.mongodb.net/';
+const uri = '';
 
 
 // conecte ao mongodb
