@@ -24,6 +24,7 @@
   - `POST /register`: Para registrar um novo usuário.
   - `POST /login`: Para autenticar um usuário.
   - `POST /forgot-password`: Para iniciar a recuperação de senha (opcional).
+  - `GET /users`: Para retornar uma lista com todos os usuarios.
 
 ## 4. Planejar a Lógica de Controle
 
