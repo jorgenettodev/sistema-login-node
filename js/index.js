@@ -70,17 +70,3 @@ app.listen(port, async () => {
     console.log(`Servidor express rodando em http://localhost:${port}`);
 })
 
-const Animal = require("./models/Animal");
-app.post("/animal", async (req, res) => {
-    try {
-        
-        await Animal.create({
-            especie: "Cachorro"
-        })
-
-        return res.status(201).json({mensagem: "Animal criado"});
-    }
-    catch (error) {
-        console.log(error);
-        return res.status(500).json({mensagem: "nao criou o animal"});
-    }})
